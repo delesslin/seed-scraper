@@ -1,0 +1,23 @@
+{
+  "name": "seed-scraper",
+  "version": "1.0.0",
+  "description": "An app that scrapes descriptions from popular seed sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "fastify": "^2.8.0",
+    "nodemon": "^1.19.2",
+    "puppeteer": "^1.20.0",
+    "scrape-metadata": "^2.0.0",
+    "simplecrawler": "^1.1.8"
+  }
+}
