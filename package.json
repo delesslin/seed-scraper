@@ -4,20 +4,25 @@
   "description": "An app that scrapes descriptions from popular seed sources",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js",
-    "start": "node index.js"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "delesslin",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "fastify": "^2.8.0",
+    "google": "^2.1.0",
+    "google-it": "^1.2.1",
     "nodemon": "^1.19.2",
     "puppeteer": "^1.20.0",
+    "random-number": "0.0.9",
     "scrape-metadata": "^2.0.0",
-    "simplecrawler": "^1.1.8"
+    "simplecrawler": "^1.1.8",
+    "terminal-link": "^2.0.0"
   }
 }
